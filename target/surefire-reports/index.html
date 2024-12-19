@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Appium_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Appium Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Appium_Test_Suite" class="navigator-link ">
+                    <span>C:\semester3\project\Appium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Appium_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Appium_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Appium_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Appium_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Appium_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Appium_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="hide-methods failed suite-Appium_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Appium_Test_Suite -->
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="show-methods failed suite-Appium_Test_Suite"> (show)</a> <!-- show-methods failed suite-Appium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Appium_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Ecommerce_TC02" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Ecommerce_TC04" class="method navigator-link" hash-for-method="validateGestures">validateGestures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Appium_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="hide-methods passed suite-Appium_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Appium_Test_Suite -->
+                      <a href="#" panel-name="suite-Appium_Test_Suite" class="show-methods passed suite-Appium_Test_Suite"> (show)</a> <!-- show-methods passed suite-Appium_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Appium_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.PhoneDialer_TC01" class="method navigator-link" hash-for-method="callDialer">callDialer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.APIDemos_TC01" class="method navigator-link" hash-for-method="handleElements1">handleElements1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Chrome_TC01" class="method navigator-link" hash-for-method="handleElements2">handleElements2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.APIDemos_TC02" class="method navigator-link" hash-for-method="handleElements2">handleElements2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.APIDemos_TC03" class="method navigator-link" hash-for-method="handleElements3">handleElements3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.APIDemos_TC04" class="method navigator-link" hash-for-method="handleElements4">handleElements4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.APIDemos_TC05" class="method navigator-link" hash-for-method="handleElements5">handleElements5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.PhoneDialer_TC02" class="method navigator-link" hash-for-method="handleElements6">handleElements6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.WifiSettings_TC06" class="method navigator-link" hash-for-method="modifyWifiSettings">modifyWifiSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Chrome_TC02" class="method navigator-link" hash-for-method="search">search</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Calculator_TC01" class="method navigator-link" hash-for-method="testCalculator">testCalculator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Ecommerce_TC01" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Ecommerce_TC01" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Appium_Test_Suite" title="tests.Ecommerce_TC03" class="method navigator-link" hash-for-method="validateCost">validateCost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Appium_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Appium_Test_Suite" class="panel Appium_Test_Suite">
+          <div class="suite-Appium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Ecommerce_TC04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGestures">
+                  </a> <!-- validateGestures -->
+                  <span class="method-name">validateGestures</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [5c9080bd-c049-4951-9d80-e4eab2e1a50b, findElement {using=class name, value=android.widget.CheckBox}]
+Capabilities {appium:DEVICE_NAME: asus ASUS_X01AD, appium:PLATFORM_NAME: Android, appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UiAutomator2, appium:chromedriverAutodownload: true, appium:databaseEnabled: false, appium:desired: {DEVICE_NAME: asus ASUS_X01AD, PLATFORM_NAME: Android, appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverAutodownload: true, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: asus, appium:deviceModel: ASUS_X01AD, appium:deviceName: JBAAGF074869X35, appium:deviceScreenDensity: 272, appium:deviceScreenSize: 720x1520, appium:deviceUDID: JBAAGF074869X35, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.7, appium:platformVersion: 9, appium:statBarHeight: 57, appium:takesScreenshot: true, appium:viewportRect: {height: 1463, left: 0, top: 57, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 5c9080bd-c049-4951-9d80-e4eab2e1a50b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at tests.Ecommerce_TC04.validateGestures(Ecommerce_TC04.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-failed -->
+          <div class="suite-Appium_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.Ecommerce_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.androidsample.generalstore:id/productName&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [55e9309c-7d4a-4865-a9fe-7fd169158443, getElementText {id=00000000-0000-04d3-ffff-ffff00000064}]
+Capabilities {appium:DEVICE_NAME: asus ASUS_X01AD, appium:PLATFORM_NAME: Android, appium:appActivity: com.androidsample.generalst..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UiAutomator2, appium:chromedriverAutodownload: true, appium:databaseEnabled: false, appium:desired: {DEVICE_NAME: asus ASUS_X01AD, PLATFORM_NAME: Android, appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: UiAutomator2, chromedriverAutodownload: true, platformName: ANDROID}, appium:deviceApiLevel: 28, appium:deviceManufacturer: asus, appium:deviceModel: ASUS_X01AD, appium:deviceName: JBAAGF074869X35, appium:deviceScreenDensity: 272, appium:deviceScreenSize: 720x1520, appium:deviceUDID: JBAAGF074869X35, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.7, appium:platformVersion: 9, appium:statBarHeight: 57, appium:takesScreenshot: true, appium:viewportRect: {height: 1463, left: 0, top: 57, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (55e9309c-7d4a-4865-a9fe-7fd169158443)] -&gt; id: com.androidsample.generalstore:id/productName]
+Session ID: 55e9309c-7d4a-4865-a9fe-7fd169158443
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:238)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+	at tests.Ecommerce_TC02.selectProduct(Ecommerce_TC02.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-failed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.WifiSettings_TC06</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyWifiSettings">
+                  </a> <!-- modifyWifiSettings -->
+                  <span class="method-name">modifyWifiSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Chrome_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search">
+                  </a> <!-- search -->
+                  <span class="method-name">search</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Chrome_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements2">
+                  </a> <!-- handleElements2 -->
+                  <span class="method-name">handleElements2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PhoneDialer_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callDialer">
+                  </a> <!-- callDialer -->
+                  <span class="method-name">callDialer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PhoneDialer_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements6">
+                  </a> <!-- handleElements6 -->
+                  <span class="method-name">handleElements6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.APIDemos_TC04</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements4">
+                  </a> <!-- handleElements4 -->
+                  <span class="method-name">handleElements4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Calculator_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalculator">
+                  </a> <!-- testCalculator -->
+                  <span class="method-name">testCalculator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.APIDemos_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements1">
+                  </a> <!-- handleElements1 -->
+                  <span class="method-name">handleElements1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.APIDemos_TC05</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements5">
+                  </a> <!-- handleElements5 -->
+                  <span class="method-name">handleElements5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.APIDemos_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements3">
+                  </a> <!-- handleElements3 -->
+                  <span class="method-name">handleElements3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Ecommerce_TC03</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCost">
+                  </a> <!-- validateCost -->
+                  <span class="method-name">validateCost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Ecommerce_TC01</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+          <div class="suite-Appium_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.APIDemos_TC02</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="handleElements2">
+                  </a> <!-- handleElements2 -->
+                  <span class="method-name">handleElements2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Appium_Test_Suite-class-passed -->
+        </div> <!-- panel Appium_Test_Suite -->
+        <div panel-name="test-xml-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\semester3\project\Appium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Appium Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Setup and Teardown&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ExtentReport&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Setup and Teardown --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Web App Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;chromedriverPath&quot; value=&quot;C:\\semester3\\project\\Appium\\src\\test\\resources\\drivers\\chromedriver.exe&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;web&quot;/&gt;
+    &lt;parameter name=&quot;automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;asus ASUS_X01AD&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Chrome_TC01&quot;/&gt;
+      &lt;class name=&quot;tests.Chrome_TC02&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Web App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Demos App Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;appPackage&quot; value=&quot;io.appium.android.apis&quot;/&gt;
+    &lt;parameter name=&quot;appActivity&quot; value=&quot;io.appium.android.apis.ApiDemos&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;native&quot;/&gt;
+    &lt;parameter name=&quot;automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;asus ASUS_X01AD&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.APIDemos_TC01&quot;/&gt;
+      &lt;class name=&quot;tests.APIDemos_TC02&quot;/&gt;
+      &lt;class name=&quot;tests.APIDemos_TC03&quot;/&gt;
+      &lt;class name=&quot;tests.APIDemos_TC04&quot;/&gt;
+      &lt;class name=&quot;tests.APIDemos_TC05&quot;/&gt;
+      &lt;class name=&quot;tests.WifiSettings_TC06&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Demos App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Phone dialer App Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;appPackage&quot; value=&quot;com.google.android.dialer&quot;/&gt;
+    &lt;parameter name=&quot;appActivity&quot; value=&quot;com.android.dialer.main.impl.MainActivity&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;native&quot;/&gt;
+    &lt;parameter name=&quot;automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;asus ASUS_X01AD&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.PhoneDialer_TC02&quot;/&gt;
+      &lt;class name=&quot;tests.PhoneDialer_TC01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Phone dialer App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Calculator App Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;appPackage&quot; value=&quot;com.asus.calculator&quot;/&gt;
+    &lt;parameter name=&quot;appActivity&quot; value=&quot;com.asus.calculator.Calculator&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;native&quot;/&gt;
+    &lt;parameter name=&quot;automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;asus ASUS_X01AD&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Calculator_TC01&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Calculator App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ecommerce App Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;appPackage&quot; value=&quot;com.androidsample.generalstore&quot;/&gt;
+    &lt;parameter name=&quot;appActivity&quot; value=&quot;com.androidsample.generalstore.SplashActivity&quot;/&gt;
+    &lt;parameter name=&quot;chromedriverPath&quot; value=&quot;C:\\semester3\\project\\Appium\\src\\test\\resources\\drivers\\chromedriver.exe&quot;/&gt;
+    &lt;parameter name=&quot;appType&quot; value=&quot;native&quot;/&gt;
+    &lt;parameter name=&quot;automationName&quot; value=&quot;UiAutomator2&quot;/&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
+    &lt;parameter name=&quot;deviceName&quot; value=&quot;asus ASUS_X01AD&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Ecommerce_TC01&quot;/&gt;
+      &lt;class name=&quot;tests.Ecommerce_TC02&quot;/&gt;
+      &lt;class name=&quot;tests.Ecommerce_TC03&quot;/&gt;
+      &lt;class name=&quot;tests.Ecommerce_TC04&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ecommerce App Test --&gt;
+&lt;/suite&gt; &lt;!-- Appium Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Setup and Teardown (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Web App Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">API Demos App Test (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Phone dialer App Test (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Calculator App Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ecommerce App Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Appium_Test_Suite');
+function tableData_Appium_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectProduct')
+data.setCell(0, 2, 'tests.Ecommerce_TC02')
+data.setCell(0, 3, 19105);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateGestures')
+data.setCell(1, 2, 'tests.Ecommerce_TC04')
+data.setCell(1, 3, 18642);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateCost')
+data.setCell(2, 2, 'tests.Ecommerce_TC03')
+data.setCell(2, 3, 16999);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'callDialer')
+data.setCell(3, 2, 'tests.PhoneDialer_TC01')
+data.setCell(3, 3, 16501);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'handleElements2')
+data.setCell(4, 2, 'tests.Chrome_TC01')
+data.setCell(4, 3, 13112);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testInvalidLogin')
+data.setCell(5, 2, 'tests.Ecommerce_TC01')
+data.setCell(5, 3, 12657);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'modifyWifiSettings')
+data.setCell(6, 2, 'tests.WifiSettings_TC06')
+data.setCell(6, 3, 11665);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'handleElements6')
+data.setCell(7, 2, 'tests.PhoneDialer_TC02')
+data.setCell(7, 3, 10499);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'handleElements4')
+data.setCell(8, 2, 'tests.APIDemos_TC04')
+data.setCell(8, 3, 9962);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testValidLogin')
+data.setCell(9, 2, 'tests.Ecommerce_TC01')
+data.setCell(9, 3, 9000);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'handleElements2')
+data.setCell(10, 2, 'tests.APIDemos_TC02')
+data.setCell(10, 3, 8720);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'search')
+data.setCell(11, 2, 'tests.Chrome_TC02')
+data.setCell(11, 3, 8463);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'handleElements3')
+data.setCell(12, 2, 'tests.APIDemos_TC03')
+data.setCell(12, 3, 7489);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'handleElements1')
+data.setCell(13, 2, 'tests.APIDemos_TC01')
+data.setCell(13, 3, 7304);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCalculator')
+data.setCell(14, 2, 'tests.Calculator_TC01')
+data.setCell(14, 3, 3990);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'handleElements5')
+data.setCell(15, 2, 'tests.APIDemos_TC05')
+data.setCell(15, 3, 3745);
+window.suiteTableData['Appium_Test_Suite']= { tableData: data, tableDiv: 'times-div-Appium_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Appium_Test_Suite">
+              </div> <!-- times-div-Appium_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Appium Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Ecommerce_TC04</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.APIDemos_TC04</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.APIDemos_TC05</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.APIDemos_TC03</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Ecommerce_TC02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Ecommerce_TC03</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.WifiSettings_TC06</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.Chrome_TC02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.APIDemos_TC02</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.PhoneDialer_TC01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Appium_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Ecommerce_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Chrome_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, , , web, Chrome, C:\\semester3\\project\\Appium\\src\\test\\...)</span>
+                <span class="method-start">176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements2</span>
+                <span class="method-start">15455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">28567 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Chrome_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, , , web, Chrome, C:\\semester3\\project\\Appium\\src\\test\\...)</span>
+                <span class="method-start">29153 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search</span>
+                <span class="method-start">44973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">53437 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.APIDemos_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">53937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements1</span>
+                <span class="method-start">66124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">73428 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.APIDemos_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">73948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements2</span>
+                <span class="method-start">85365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">94086 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.APIDemos_TC03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">94506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements3</span>
+                <span class="method-start">104942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">112432 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.APIDemos_TC04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">112848 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements4</span>
+                <span class="method-start">123215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">133178 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.APIDemos_TC05</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">133677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements5</span>
+                <span class="method-start">145208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">148953 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.WifiSettings_TC06</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, io.appium.android.apis, io.appium.android.apis.ApiDemos, nat...)</span>
+                <span class="method-start">149380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">modifyWifiSettings</span>
+                <span class="method-start">161816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">173481 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PhoneDialer_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.google.android.dialer, com.android.dialer.main.impl.Main...)</span>
+                <span class="method-start">173924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">handleElements6</span>
+                <span class="method-start">186942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">197441 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PhoneDialer_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.google.android.dialer, com.android.dialer.main.impl.Main...)</span>
+                <span class="method-start">197895 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">callDialer</span>
+                <span class="method-start">210723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">227224 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Calculator_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.asus.calculator, com.asus.calculator.Calculator, native,...)</span>
+                <span class="method-start">227724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCalculator</span>
+                <span class="method-start">239598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">243589 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Ecommerce_TC01</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.androidsample.generalstore, com.androidsample.generalsto...)</span>
+                <span class="method-start">244103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">255927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">268584 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.androidsample.generalstore, com.androidsample.generalsto...)</span>
+                <span class="method-start">269052 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">280676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">289676 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Ecommerce_TC02</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.androidsample.generalstore, com.androidsample.generalsto...)</span>
+                <span class="method-start">290089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">301583 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">320692 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Ecommerce_TC03</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.androidsample.generalstore, com.androidsample.generalsto...)</span>
+                <span class="method-start">321163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCost</span>
+                <span class="method-start">332506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">349521 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Ecommerce_TC04</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setCapabilities(Android, asus ASUS_X01AD, UiAutomator2, com.androidsample.generalstore, com.androidsample.generalsto...)</span>
+                <span class="method-start">349930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateGestures</span>
+                <span class="method-start">360254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">378896 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ExtentReport</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">379333 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
